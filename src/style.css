@@ -1,1 +1,23 @@
 /* styles go here */
+.fieldset {
+  margin-bottom: 20px;
+}
+
+.fieldset:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.label:last-child {
+  margin-bottom: 0;
+}
+/*
+.radio-box > * {
+  display: inline-block;
+  margin-bottom: 10px;
+} */
