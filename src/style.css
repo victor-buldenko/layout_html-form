@@ -1,4 +1,3 @@
-/* styles go here */
 .fieldset {
   margin-bottom: 20px;
 }
@@ -16,8 +15,3 @@
 .label:last-child {
   margin-bottom: 0;
 }
-/*
-.radio-box > * {
-  display: inline-block;
-  margin-bottom: 10px;
-} */
