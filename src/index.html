@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./style.css" >
   </head>
   <body>
-
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
       <fieldset
@@ -19,7 +18,8 @@
       >
         <legend>Personal information</legend>
 
-        <label class="label">Surname:
+        <label class="label">
+          Surname:
           <input
             type="text"
             name="surname"
@@ -27,7 +27,8 @@
           >
         </label>
 
-        <label class="label">Name:
+        <label class="label">
+          Name:
           <input
             type="text"
             name="firstname"
@@ -35,7 +36,8 @@
           >
         </label>
 
-        <label class="label">How old are You?
+        <label class="label">
+          How old are You?
           <input
             type="number"
             name="age"
@@ -45,7 +47,8 @@
           >
         </label>
 
-        <label class="label">Full date of birth:
+        <label class="label">
+          Full date of birth:
           <input
             type="date"
             name="birthday"
@@ -53,7 +56,8 @@
           >
         </label>
 
-        <label class="label">I accept the term of the agreement
+        <label class="label">
+          I accept the term of the agreement
           <input
             type="checkbox"
             name="term"
@@ -63,9 +67,11 @@
 
       <fieldset
       class="fieldset"
-      name="registration">
+      name="registration"
+      >
         <legend>Registration</legend>
-        <label class="label">E-mail:
+        <label class="label">
+          E-mail:
           <input
             type="email"
             name="email"
@@ -73,7 +79,8 @@
             required
           >
         </label>
-        <label class="label">Password:
+        <label class="label">
+          Password:
           <input
             type="password"
             name="password"
@@ -85,8 +92,8 @@
       </fieldset>
 
       <fieldset
-      class="fieldset"
-      name="aboutYou"
+        class="fieldset"
+        name="aboutYou"
       >
         <legend>An interesting fact about you!</legend>
         <label class="label">
@@ -104,14 +111,16 @@
           No
         </label>
 
-        <label class="label"> What is your favorite color?
+        <label class="label">
+          What is your favorite color?
           <input
             type="color"
             name="color"
           >
         </label>
 
-        <label class="label"> What time do you go to bed?
+        <label class="label">
+          What time do you go to bed?
           <input
             type="time"
             name="time"
@@ -119,7 +128,8 @@
           >
         </label>
 
-        <label class="label"> What are you favorite brand of cars?
+        <label class="label">
+          What are you favorite brand of cars?
           <select
             name="cars"
             id="cars"
@@ -131,7 +141,8 @@
           </select>
         </label>
 
-        <label class="label"> How do you rate our work?
+        <label class="label">
+          How do you rate our work?
           <input
             type="range"
             name="rating"
@@ -143,14 +154,16 @@
       </fieldset>
 
       <fieldset
-      class="fieldset"
-      name="info"
+        class="fieldset"
+        name="info"
       >
 
         <legend>Additional info</legend>
         <label class="label">
           Comments:
-          <textarea name="comments" cols="20"
+          <textarea
+            name="comments"
+            cols="20"
             rows="2"
             autocomplete="off"
          ></textarea>
